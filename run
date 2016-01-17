@@ -6,4 +6,4 @@ if type jenv; then
   MAVEN='jenv exec $MAVEN'
 fi
 
-$MAVEN clean hpi:run -Dhudson.Main.development=true
+$MAVEN clean hpi:run -Dhudson.Main.development=true -Djava.net.preferIPv4Stack=true
