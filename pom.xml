@@ -39,6 +39,10 @@
         </developer>
     </developers>
 
+    <prerequisites>
+         <maven>3.2.5</maven>
+    </prerequisites>
+
     <!-- If you have contributed to the project, please feel free to add your details below! -->
     <contributors>
 
